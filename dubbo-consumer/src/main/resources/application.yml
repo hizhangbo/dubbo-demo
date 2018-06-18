@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: dubbo-consumer
+dubbo:
+  application:
+    name: dubbo-consumer
+  registry:
+    address: zookeeper://hadoop2:2181
